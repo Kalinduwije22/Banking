@@ -1,0 +1,23 @@
+artifact_path: file:///E:/Banking/mlruns/1/models/m-635d4ef333df452986f3e696c68d2fab/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.0
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.5.1+cu121
+mlflow_version: 3.8.1
+model_id: m-635d4ef333df452986f3e696c68d2fab
+model_size_bytes: 18064
+model_uuid: m-635d4ef333df452986f3e696c68d2fab
+prompts: null
+run_id: 0c438fc17af64919aa050665ae22f150
+utc_time_created: '2026-01-24 04:46:47.526348'
